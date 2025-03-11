@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="beranda" class="header">
       <nav class="nav">
         <a href="" class="nav__logo">FYSTORE</a>
 
         <ul class="nav__menu">
-          <li class="nav__item"><a href="#" class="nav__link">Beranda</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Layanan</a></li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Produk Kami</a>
+            <a href="#beranda" class="nav__link">Beranda</a>
           </li>
-          <li class="nav__item"><a href="#" class="nav__link">Kontak</a></li>
+          <li class="nav__item">
+            <a href="#layanan" class="nav__link">Layanan</a>
+          </li>
+          <li class="nav__item">
+            <a href="#produk-kami" class="nav__link">Produk Kami</a>
+          </li>
+          <li class="nav__item">
+            <a href="#kontak" class="nav__link">Kontak</a>
+          </li>
         </ul>
 
         <svg
+          id="hamburgerMenu"
           class="nav__hamburger_menu"
           xmlns="http://www.w3.org/2000/svg"
           width="28"
@@ -98,7 +105,7 @@
         </div>
       </section>
 
-      <section class="service">
+      <section id="layanan" class="service">
         <div class="service__item">
           <svg
             class="service__icon"
@@ -160,7 +167,7 @@
         </div>
       </section>
 
-      <section class="product">
+      <section id="produk-kami" class="product">
         <h2 class="product__title">Produk Kami</h2>
 
         <div class="product__categories">
@@ -218,5 +225,7 @@
         &copy; 2025 by Muhammad Reffy. All Rights Reserved.
       </p>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
