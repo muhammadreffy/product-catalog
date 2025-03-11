@@ -29,6 +29,7 @@ body{
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
+  z-index: 9999;
 }
 
 .header--active{
