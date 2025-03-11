@@ -11,6 +11,8 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
 }
 
 body{
